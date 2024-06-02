@@ -31,10 +31,10 @@ export default function BoookingPage({ date, setDate, time, setTime, guestCount,
             }
         }
     return (
-        <div className="w-full h-full border-2">
-            <div className="w-full mb-3 ml-14">
+        <div className="w-full h-full">
+            <div className="w-full mb-10 ml-14">
                 <h2 className="font-semibold text-xl mb-2 mt-1">Available Time Slots</h2>
-                <ul className="flex gap-5 justify-between">
+                <ul className="flex justify-between">
                 {availableTimes.map((item) => {
                     return <BookingSlot item={item.time} />
                 })}
