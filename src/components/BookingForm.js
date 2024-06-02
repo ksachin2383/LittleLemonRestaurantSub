@@ -7,7 +7,7 @@ export default function BookingForm({ time, date, occasion, guestCount, onDateSe
       <h1 className="w-full ml-14 mt-2 text-xl font-bold">Book Now</h1>
       <Formik
        initialValues={{ FieldTime: null, FieldDate: null, FieldOccasion: null, FieldGuestCount: null }}
-       validate={(values) => {
+       validate={() => {
          const errors = {};
          if (!date) {
           errors.FieldDate = 'Required';
