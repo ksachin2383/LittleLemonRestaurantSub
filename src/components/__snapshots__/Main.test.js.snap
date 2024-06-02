@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test functions function initializeTimes 1`] = `
+Array [
+  Object {
+    "reserved": false,
+    "time": "17:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "18:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "19:00",
+  },
+]
+`;
+
+exports[`test functions function updateTimes when action type is UPDATE_TIME 1`] = `
+Array [
+  Object {
+    "reserved": false,
+    "time": "17:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "18:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "19:00",
+  },
+]
+`;
+
+exports[`test functions function updateTimes when action type is default 1`] = `
+Array [
+  Object {
+    "reserved": false,
+    "time": "17:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "18:00",
+  },
+  Object {
+    "reserved": false,
+    "time": "19:00",
+  },
+]
+`;
